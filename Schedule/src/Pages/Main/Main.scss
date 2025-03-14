@@ -1,0 +1,40 @@
+.main {
+  h1 {
+    text-align: center;
+  }
+  .all_block {
+    display: grid;
+  }
+  .l1 {
+    grid-template-columns: 1fr;
+  }
+  .l2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .l3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .choose_vie {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 100px;
+      text-align: center;
+      margin: 6px;
+      padding: 6px;
+      background-color: #efeefc;
+      border-radius: 6px;
+    }
+  }
+  .block_links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    .link {
+      display: block;
+      margin-top: 50px;
+      color: #6d5cff;
+      text-decoration: underline;
+    }
+  }
+}

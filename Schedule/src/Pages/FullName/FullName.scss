@@ -1,0 +1,11 @@
+.full_name{
+    .block_full_name{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px black solid;
+        padding: 6px 2%;
+        p{
+            font-size: 18px;
+        }
+    }
+}

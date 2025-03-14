@@ -1,0 +1,27 @@
+.error{
+    h1, h3{
+        text-align: center;
+    }
+    .error404_p{
+        margin-top: 16px;
+        font-size: 42px;
+        color: #7e0000;
+    }
+    h1{
+        margin-bottom: 6px;
+    }
+    a{
+        display: block;
+        font-size: 26px;
+        color: #6d5cff;
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    img{
+        max-width: 300px;
+        width: 100%;
+        margin: 6px auto;
+        display: block;
+    }
+}

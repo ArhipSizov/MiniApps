@@ -1,0 +1,30 @@
+.schedule{
+    h1 {
+      text-align: center;
+    }
+    .choose_vie{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        div{
+          width: 100px;
+          text-align: center;
+          margin: 6px;
+          padding: 6px;
+          background-color: #efeefc;
+          border-radius: 6px;
+        }
+      }
+      .all_block {
+        display: grid;
+      }
+      .l1{
+        grid-template-columns: 1fr;
+      }
+      .l2{
+        grid-template-columns: 1fr 1fr;
+      }
+      .l3{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}

@@ -1,0 +1,69 @@
+.admin {
+  h1,h2{
+    text-align: center;
+  }
+  .button {
+    background-color: #efeefc;
+    margin-left: 2px;
+    transition: 0.2s;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px;
+    display: block;
+    margin: 6px auto;
+    p {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  .button:hover {
+    background-color: #5661ff;
+    p {
+      color: #fff;
+    }
+  }
+  .pin {
+    padding-bottom: 50px;
+    margin: 20px 0;
+    .pin_e_all {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      .pin_e {
+        padding: 10px 0;
+        max-width: 270px;
+        display: grid;
+        grid-template-rows: 20px;
+        li {
+          margin: 10px 6px;
+          display: inline-block;
+          position: absolute;
+        }
+        img {
+          width: 36px;
+        }
+      }
+    }
+    p {
+      font-size: 24px;
+    }
+    input {
+      width: 100%;
+      margin: 12px 0;
+      border: #ced2de 1px solid;
+      padding: 6px;
+      border-radius: 6px;
+    }
+  }
+  .footer {
+    p {
+      font-size: 18px;
+    }
+    a {
+      font-size: 20px;
+      color: #6d5cff;
+      text-decoration: underline;
+    }
+  }
+}

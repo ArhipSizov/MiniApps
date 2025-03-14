@@ -1,0 +1,112 @@
+.real {
+  h1 {
+    text-align: center;
+  }
+  .all_block {
+    display: grid;
+  }
+  .l1{
+    grid-template-columns: 1fr;
+  }
+  .l2{
+    grid-template-columns: 1fr 1fr;
+  }
+  .l3{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  h2 {
+    margin: 12px;
+    font-size: 32px;
+  }
+  ul {
+    margin-left: 32px;
+    li {
+      font-size: 18px;
+    }
+  }
+  .admin_button {
+    background-color: #efeefc;
+    transition: 0.2s;
+    width: 230px;
+    margin: 72px auto;
+    border-radius: 6px;
+    padding: 6px;
+    p {
+      text-align: center;
+    }
+  }
+  .admin_button:hover {
+    background-color: #5661ff;
+    p {
+      color: #fff;
+    }
+  }
+  .choose_vie{
+    display: flex;
+    justify-content: space-between;
+    div{
+      width: 100px;
+      text-align: center;
+      margin: 6px;
+      padding: 6px;
+      background-color: #efeefc;
+      border-radius: 6px;
+    }
+  }
+  .show {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    .show_block {
+      width: 80%;
+      background-color: #efeefc;
+      border-radius: 6px;
+      margin: 200px 10%;
+      padding: 6px;
+      p {
+        font-size: 24px;
+      }
+      input {
+        width: 100%;
+        margin: 12px 0;
+        border: #CED2DE 1px solid;
+        padding: 6px;
+        border-radius: 6px;
+      }
+      .error_password{
+        color: #7e0000;
+      }
+      .password_button {
+        background-color: #fff;
+        transition: 0.2s;
+        width: 100%;
+        border-radius: 6px;
+        padding: 6px;
+        p{
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+      .password_button:hover {
+        background-color: #5661ff;
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .end_info{
+    padding: 24px 0;
+    p{
+      font-size: 18px;
+    }
+    a {
+      font-size: 18px;
+      color: #6d5cff;
+      text-decoration: underline;
+    }
+  }
+}
